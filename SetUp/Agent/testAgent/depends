@@ -1,0 +1,10 @@
+test.o: test.cpp ../../../include/testAgent.h ../../../include/Agent.h \
+ ../../../include/ISubManager.h ../../../include/common.h \
+ ../../../include/EventKey.h ../../../include/IEventPublish.h \
+ ../../../include/Event.h ../../../include/SharedPtr.h \
+ ../../../include/AgentData.h
+testAgent.o: testAgent.cpp ../../../include/testAgent.h \
+ ../../../include/Agent.h ../../../include/ISubManager.h \
+ ../../../include/common.h ../../../include/EventKey.h \
+ ../../../include/IEventPublish.h ../../../include/Event.h \
+ ../../../include/SharedPtr.h ../../../include/AgentData.h

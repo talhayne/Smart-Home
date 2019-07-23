@@ -1,0 +1,7 @@
+ISubLookUp.o: ISubLookUp.cpp ../../include/ISubLookUp.h \
+ ../../include/common.h ../../include/EventKey.h
+ISubManager.o: ISubManager.cpp ../../include/ISubManager.h \
+ ../../include/common.h ../../include/EventKey.h
+SubManager.o: SubManager.cpp ../../include/SubManager.h \
+ ../../include/common.h ../../include/EventKey.h \
+ ../../include/ISubManager.h ../../include/ISubLookUp.h

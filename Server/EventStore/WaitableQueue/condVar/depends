@@ -1,0 +1,3 @@
+test.o: test.cpp
+condVar.o: condVar.cpp ../include/condVar.h ../include/common.h \
+ ../include/Mutex.h

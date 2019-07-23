@@ -1,0 +1,6 @@
+#include "fireAlarm.h"
+
+int main()
+{
+	return 0;
+}

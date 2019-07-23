@@ -1,0 +1,6 @@
+Server.o: Server.cpp ../include/Server.h ../include/IDispatcher.h \
+ ../include/common.h ../include/SharedPtr.h ../include/Agent.h \
+ ../include/ISubManager.h ../include/EventKey.h \
+ ../include/IEventPublish.h ../include/Event.h ../include/AgentData.h \
+ ../include/ISubLookUp.h ../include/IEventRetriever.h ../include/Event.h \
+ ../include/IEventPublish.h

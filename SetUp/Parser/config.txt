@@ -1,0 +1,69 @@
+[smoke-detector-192001]
+type = smokeDetector.so
+room = room_1_a
+floor = 1
+log = fire_log
+config = iot:192.168.1.11;signal:smoke_detected
+
+[smoke-detector-192002]
+type = smokeDetector.so
+room = room_1_a
+floor = 1
+log = fire_log
+config = iot:192.168.1.11;signal:smoke_detected
+
+[test-agent-2]
+type = testAgent.so
+room = room_1_a
+floor = 0
+log = fire_log
+config = iot:192.168.1.11;signal:test_agent;trigger:type=test,floor=1,room=room_1_e|type=test,floor=1,room=room_1_b|type=test,floor=1,room=room_1_c|type=test,floor=1,room=room_1_a|type=overheat,floor=1,room=room_1_b|type=overheat,floor=1,room=room_1_c|type=SIGUSER2,floor=0,room=0
+
+[smoke-detector-192003]
+type = smokeDetector.so
+room = room_1_a
+floor = 1
+log = fire_log
+config = iot:192.168.1.11;trigger:type=smoke_detected,floor=1,room=room_1_a|type=smoke_detected,floor=1,room=room_1_b|type=smoke_detected,floor=1,room=room_1_c|type=overheat,floor=1,room=room_1_d|type=overheat,floor=1,room=room_1_e|type=overheat,floor=1,room=room_1_c|type=SIGUSER2,floor=0,room=0
+
+[fire-alarm-983001]
+type = fireAlarm.so
+room = room_1_a
+floor = 1
+log = fire_log
+config = iot:192.168.0.11;trigger:type=smoke_detected,floor=1,room=room_1_a|type=smoke_detected,floor=1,room=room_1_b|type=smoke_detected,floor=1,room=room_1_c|type=overheat,floor=1,room=room_1_a|type=overheat,floor=1,room=room_1_b|type=overheat,floor=1,room=room_1_c|type=SIGUSER2,floor=0,room=0
+
+[fire-alarm-983002]
+type = fireAlarm.so
+room = room_2_a
+floor = 1
+log = fire_log
+config = iot:192.168.0.11;trigger:type=smoke_detected,floor=1,room=room_1_a|type=smoke_detected,floor=1,room=room_1_b|type=smoke_detected,floor=1,room=room_1_c|type=overheat,floor=1,room=room_1_a|type=overheat,floor=1,room=room_1_b|type=overheat,floor=1,room=room_1_c|type=SIGUSER2,floor=0,room=0
+
+[fire-alarm-983003]
+type = fireAlarm.so
+room = room_2_a
+floor = 1
+log = fire_log
+config = iot:192.168.0.11;trigger:type=smoke_detected,floor=1,room=room_1_a|type=smoke_detected,floor=1,room=room_1_b|type=smoke_detected,floor=1,room=room_1_c|type=overheat,floor=1,room=room_1_a|type=overheat,floor=1,room=room_1_b|type=overheat,floor=1,room=room_1_c|type=SIGUSER2,floor=0,room=0
+
+[smoke-detector-192004]
+type = smokeDetector.so
+room = room_1_a
+floor = 2
+log = fire_log
+config = iot:192.168.1.11;signal:smoke_detected
+
+[smoke-detector-192005]
+type = smokeDetector.so
+room = room_1_a
+floor = 3
+log = fire_log
+config = iot:192.168.1.11;signal:smoke_detected
+
+[test-agent-1]
+type = testAgent.so
+room = room_1_a
+floor = 3
+log = fire_log
+config = iot:192.168.1.11;signal:test_agent

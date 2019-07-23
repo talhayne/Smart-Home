@@ -1,0 +1,10 @@
+test.o: test.cpp ../../../include/fireAlarm.h ../../../include/Agent.h \
+ ../../../include/ISubManager.h ../../../include/common.h \
+ ../../../include/EventKey.h ../../../include/IEventPublish.h \
+ ../../../include/Event.h ../../../include/SharedPtr.h \
+ ../../../include/AgentData.h
+fireAlarm.o: fireAlarm.cpp ../../../include/fireAlarm.h \
+ ../../../include/Agent.h ../../../include/ISubManager.h \
+ ../../../include/common.h ../../../include/EventKey.h \
+ ../../../include/IEventPublish.h ../../../include/Event.h \
+ ../../../include/SharedPtr.h ../../../include/AgentData.h

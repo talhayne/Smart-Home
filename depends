@@ -1,0 +1,18 @@
+test.o: test.cpp include/SmartHome.h include/common.h \
+ include/Dispatcher.h include/IDispatcher.h include/SharedPtr.h \
+ include/Agent.h include/ISubManager.h include/EventKey.h \
+ include/IEventPublish.h include/Event.h include/AgentData.h \
+ include/SubManager.h include/ISubLookUp.h include/EventStore.h \
+ include/IEventRetriever.h include/waitableQueue.h include/condVar.h \
+ include/Mutex.h include/waitableQueue.hpp include/Server.h \
+ include/SetUp.h include/AgentsContainer.h include/thread.h \
+ include/runable.h
+SmartHome.o: SmartHome.cpp include/SmartHome.h include/common.h \
+ include/Dispatcher.h include/IDispatcher.h include/SharedPtr.h \
+ include/Agent.h include/ISubManager.h include/EventKey.h \
+ include/IEventPublish.h include/Event.h include/AgentData.h \
+ include/SubManager.h include/ISubLookUp.h include/EventStore.h \
+ include/IEventRetriever.h include/waitableQueue.h include/condVar.h \
+ include/Mutex.h include/waitableQueue.hpp include/Server.h \
+ include/SetUp.h include/AgentsContainer.h include/thread.h \
+ include/runable.h

@@ -1,0 +1,4 @@
+test.o: test.cpp
+runable.o: runable.cpp ../../include/runable.h
+thread.o: thread.cpp ../../include/thread.h ../../include/common.h \
+ ../../include/runable.h

@@ -1,0 +1,26 @@
+test.o: test.cpp ../include/SetUp.h ../include/common.h \
+ ../include/ISubManager.h ../include/EventKey.h \
+ ../include/IEventPublish.h ../include/Event.h ../include/SharedPtr.h \
+ ../include/AgentsContainer.h ../include/thread.h ../include/runable.h \
+ ../include/Agent.h ../include/AgentData.h ../include/EventStore.h \
+ ../include/IEventRetriever.h ../include/waitableQueue.h \
+ ../include/condVar.h ../include/Mutex.h ../include/waitableQueue.hpp \
+ ../include/SubManager.h ../include/ISubLookUp.h
+DeviceRunable.o: DeviceRunable.cpp ../include/DeviceRunable.h \
+ ../include/runable.h ../include/Agent.h ../include/ISubManager.h \
+ ../include/common.h ../include/EventKey.h ../include/IEventPublish.h \
+ ../include/Event.h ../include/SharedPtr.h ../include/AgentData.h
+AgentsContainer.o: AgentsContainer.cpp ../include/AgentsContainer.h \
+ ../include/thread.h ../include/common.h ../include/runable.h \
+ ../include/Agent.h ../include/ISubManager.h ../include/EventKey.h \
+ ../include/IEventPublish.h ../include/Event.h ../include/SharedPtr.h \
+ ../include/AgentData.h ../include/thread.h ../include/DeviceRunable.h \
+ ../include/runable.h
+SetUp.o: SetUp.cpp ../include/SetUp.h ../include/common.h \
+ ../include/ISubManager.h ../include/EventKey.h \
+ ../include/IEventPublish.h ../include/Event.h ../include/SharedPtr.h \
+ ../include/AgentsContainer.h ../include/thread.h ../include/runable.h \
+ ../include/Agent.h ../include/AgentData.h ../include/Parser.h \
+ ../include/SoLoader.h ../include/IDynamicLoader.h \
+ ../include/IDynamicLoader.hpp ../include/SoLoader.hpp \
+ ../include/FAgent.h ../include/FAgent.hpp ../include/AgentData.h

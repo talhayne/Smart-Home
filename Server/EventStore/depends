@@ -1,0 +1,12 @@
+IEventRetriever.o: IEventRetriever.cpp ../../include/IEventRetriever.h \
+ ../../include/SharedPtr.h ../../include/common.h ../../include/Event.h \
+ ../../include/EventKey.h
+IEventPublish.o: IEventPublish.cpp ../../include/IEventPublish.h \
+ ../../include/Event.h ../../include/EventKey.h ../../include/common.h \
+ ../../include/SharedPtr.h
+EventStore.o: EventStore.cpp ../../include/EventStore.h \
+ ../../include/SharedPtr.h ../../include/Event.h ../../include/EventKey.h \
+ ../../include/IEventPublish.h ../../include/common.h \
+ ../../include/IEventRetriever.h ../../include/waitableQueue.h \
+ ../../include/condVar.h ../../include/Mutex.h \
+ ../../include/waitableQueue.hpp

@@ -1,0 +1,2 @@
+test.o: test.cpp
+Mutex.o: Mutex.cpp ../include/Mutex.h ../include/common.h

@@ -1,0 +1,6 @@
+test.o: test.cpp ../../include/AgentData.h ../../include/EventKey.h \
+ ../../include/Parser.h ../../include/AgentData.h ../../include/common.h
+AgentData.o: AgentData.cpp ../../include/AgentData.h \
+ ../../include/EventKey.h
+Parser.o: Parser.cpp ../../include/Parser.h ../../include/AgentData.h \
+ ../../include/EventKey.h ../../include/common.h

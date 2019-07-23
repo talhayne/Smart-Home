@@ -1,0 +1,11 @@
+IDispatcher.o: IDispatcher.cpp ../../include/IDispatcher.h \
+ ../../include/common.h ../../include/SharedPtr.h ../../include/Agent.h \
+ ../../include/ISubManager.h ../../include/EventKey.h \
+ ../../include/IEventPublish.h ../../include/Event.h \
+ ../../include/AgentData.h
+Dispatcher.o: Dispatcher.cpp ../../include/Dispatcher.h \
+ ../../include/IDispatcher.h ../../include/common.h \
+ ../../include/SharedPtr.h ../../include/Agent.h \
+ ../../include/ISubManager.h ../../include/EventKey.h \
+ ../../include/IEventPublish.h ../../include/Event.h \
+ ../../include/AgentData.h

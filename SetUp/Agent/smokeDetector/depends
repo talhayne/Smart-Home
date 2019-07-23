@@ -1,0 +1,10 @@
+test.o: test.cpp ../../../include/smokeDetector.h \
+ ../../../include/Agent.h ../../../include/ISubManager.h \
+ ../../../include/common.h ../../../include/EventKey.h \
+ ../../../include/IEventPublish.h ../../../include/Event.h \
+ ../../../include/SharedPtr.h ../../../include/AgentData.h
+smokeDetector.o: smokeDetector.cpp ../../../include/smokeDetector.h \
+ ../../../include/Agent.h ../../../include/ISubManager.h \
+ ../../../include/common.h ../../../include/EventKey.h \
+ ../../../include/IEventPublish.h ../../../include/Event.h \
+ ../../../include/SharedPtr.h ../../../include/AgentData.h

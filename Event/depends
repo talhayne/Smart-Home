@@ -1,0 +1,2 @@
+Event.o: Event.cpp ../include/Event.h ../include/EventKey.h
+EventKey.o: EventKey.cpp ../include/EventKey.h
